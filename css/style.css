@@ -648,6 +648,18 @@ a.pagination_page:hover {
     body {
             padding: 0;
     }
+}
+@media only screen and (max-width: 320px) {
+    button.edit-button, button.delete-button {
+   padding: 3px;
+}
+    .navbar a {
+	font-size: 12px !important;
+	padding: 0 35px !important;
+}
+    body {
+            padding: 0;
+    }
     #body {
         padding: 2px;
     }
