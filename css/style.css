@@ -645,4 +645,7 @@ a.pagination_page:hover {
 	font-size: 12px !important;
 	padding: 0 35px !important;
 }
+    body {
+            padding: 0;
+    }
 }
