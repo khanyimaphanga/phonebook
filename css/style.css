@@ -642,11 +642,7 @@ a.pagination_page:hover {
    padding: 3px;
 }
     #header ul#navigation li a {
-	color: #fff;
-	font-size: 12px;
-	padding: 0 35px;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
+	font-size: 12px !important;
+	padding: 0 35px !important;
 }
 }
