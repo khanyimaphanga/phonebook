@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Belle &amp; Carrie Rehabilitation Yoga Web Template</title>
+    <link rel="stylesheet" type="text/css" href="css/crud.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <link href="fonts/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <script type='text/javascript' src='js/mobile.js'></script>
+</head>
+
+<body>
+   	<div id="header" class="blur-content">
+		<h1><a href="index.html">Khanyi Maphanga <span>Phonebook</span></a></h1>
+		<ul id="navigation">
+			<li>
+				<a href="#">Contacts</a>
+			</li>
+			<li>
+				<a href="#">Report</a>
+                <ul>
+					<li>
+						<a href="report-all.html">All</a>
+					</li>
+                    <li>
+						<a href="report-fav.html">Favorites</a>
+					</li>
+                    <li>
+						<a href="report-mostphoned.html">Most Phoned</a>
+					</li>
+				</ul>
+			</li>
+		<li>
+                <a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+                <ul>
+                    <li>
+                        <a href="login.html">Logout</a>
+                    </li>
+                </ul>
+            </li>
+		</ul>
+	</div>
+    <!-- <div id="body"> -->
+        <div class="login-wrap">
+            <div class="crud-modal">
+                <input id="tab-1" type="radio" name="tab" class="create-contact" checked><label for="tab-1" class="tab">Delete Contact</label>
+<!--                <input id="tab-2" type="radio" name="tab" class="sign-up" style="display: none"><label for="tab-2" class="tab">Register</label>-->
+                <div class="login-form">
+                    <div class="create-contact-html">
+                        <div class="group">
+                            <label for="name" class="label">Name</label>
+                            <input id="name" type="text" class="input" value="Khanyi">
+                        </div>
+                        <div class="group">
+                            <label for="surname" class="label">Surname</label>
+                            <input id="surname" class="input" value="Maphanga">
+                        </div>
+                        <div class="group">
+                            <label for="phone" class="label">Phone</label>
+                            <input id="phone" type="tel" class="input" data-type="tel" value="021651651">
+                        </div>
+                        <div class="group">
+                            <label for="email" class="label">E-mail</label>
+                            <input id="email" type="text" class="input" data-type="email" value="khanyisilemaphanga@gmail.com">
+                        </div>
+              
+                               <a href="contacts.html"><button type="submit" value="Save">Save</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+ 	<div id="footer" class="blur-content">
+		<div>
+			<span>Phonebook</span>
+			<p>
+				&copy; Khanyi Maphanga
+			</p>
+		</div>
+	</div>
+</body>
+
+</html>

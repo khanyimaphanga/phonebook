@@ -1,0 +1,32 @@
+
+table{
+	width:100%;
+    font-family: 'latoregular';
+    font-size: 15px;
+    color: #172521;
+    border-collapse: collapse; 
+}
+td form {
+	margin:0;padding:0;
+}
+
+#contact-table {
+    overflow-x:auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    table {
+   font-size: 15px;
+}
+}
+
+@media only screen and (max-width: 650px) {
+    table {
+   font-size: 12px;
+}
+}
+@media only screen and (max-width: 450px) {
+     table {
+   font-size: 10px;
+}
+}
