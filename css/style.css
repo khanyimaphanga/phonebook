@@ -641,4 +641,12 @@ a.pagination_page:hover {
     button.edit-button, button.delete-button {
    padding: 3px;
 }
+    #header ul#navigation li a {
+	color: #fff;
+	font-size: 12px;
+	padding: 0 35px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
 }
