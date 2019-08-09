@@ -648,4 +648,7 @@ a.pagination_page:hover {
     body {
             padding: 0;
     }
+    #body {
+        padding: 2px;
+    }
 }
